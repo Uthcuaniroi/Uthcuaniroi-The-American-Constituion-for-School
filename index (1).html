@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href="style.css"></link>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>The American Constitution for School</title>
+  </head>
+  <body>
+    <nav class= "navbar">
+      <div class='logo'>Elliot<h4 id="h4">3-8-2024</h4></div>
+      <ul class='nav-links'>
+        <div class='menu'>
+          <li><a id="theFirstAmendment">The First Amendment: Freedom of Speach</a></li>
+          <li class='services'>
+            <a id="more">More</a>
+            <ul class='dropdown'>
+              <li><a id="sampleArgument">Debate about Representation in Congress</a></li>
+              <li><a id="GvL">The Goss v. Lopez case of 1975</a></li>
+              <li><a id="religion">Are our First Amendment Rights Being Violated?</a></li>
+              <li><a id="blog">Life in the US Without the First Amendment</a></li>
+              <li><a id="sources">Sources</a></li>
+            </ul>
+          </li>
+      </div>
+      </ul>
+    </nav>
+    <div id="pageContent" style="background-color:white"></div>
+    <script src="script.js"></script>
+    <script language="javascript">
+        function autoResizeDiv()
+        {
+            document.getElementById("pageContent").style.height = window.innerHeight +'px';
+        }
+        window.onresize = autoResizeDiv;
+        autoResizeDiv();
+    </script>
+  </body>
+</html>
